@@ -64,6 +64,14 @@ emotional.load(function () {
   //    };
   // 'wonderfully', 'awful' and '!' are assessed together and analyzed as very subjective and negative
 
+  emotional.get('Today is monday!');
+  // = {
+  //  polarity = 0,
+  //  subjectivity = 0,
+  //  assessments = []
+  // }
+  // Nothing subjective here.
+
   emotional.positive("This is a good movie") // true
   emotional.positive("this is a bad movie") // false
   emotional.positive("This is a good movie", 0.8) // false

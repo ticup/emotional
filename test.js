@@ -80,7 +80,6 @@ describe('Emotional test cases', function () {
     it('should return given values (this can fail if you supplied another sentiment file!', function (done) {
       sentiment.load(function () {
         var result = sentiment.get("Wonderfully awful! :-)");
-        console.log(result);
         result.polarity.should.equal(-0.25);
         result.subjectivity.should.equal(1);
         result.assessments.length.should.equal(2);
