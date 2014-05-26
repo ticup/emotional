@@ -40,8 +40,8 @@ emotional.load(function () {
 ```javascript
 var emotional = require("emotional");
 emotional.load(function () {
-  emotional.get("The movie attempts to be surreal by incorporating various time paradoxes,
-                "but it's presented in such a ridiculous way it's seriously boring."")
+  emotional.get("The movie attempts to be surreal by incorporating various time paradoxes,"+
+                "but it's presented in such a ridiculous way it's seriously boring.")
   // = {
   //    polarity: -0.21
   //    subjectivity: 0.8
