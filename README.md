@@ -26,7 +26,8 @@ Install with npm:
 
     npm install emotional
 
-Import library and make sure the database is loaded with *load*, then use *get* or *positive*
+Import library and make sure the database is loaded with *load*.
+Then start using the *get* or *positive* functions on the emotional object.
 
 ```javascript
 var emotional = require("emotional");
