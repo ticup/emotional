@@ -32,7 +32,7 @@ Then start using the *get* or *positive* functions on the emotional object.
 ```javascript
 var emotional = require("emotional");
 emotional.load(function () {
-  emotional.get("sentence") // {polarity: [-1, 1], subjectivity: [0, 1], assessments: [assesment]};
+  emotional.get("sentence") // { polarity: [-1,1], subjectivity: [0,1], assessments: ... };
   emotional.positive("sentence") // true | false
 });
 ```
