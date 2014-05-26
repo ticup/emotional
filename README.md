@@ -5,7 +5,7 @@ Subjectivtiy and sentiment/polarity analysis library for Node.js.
 
 Partial port from the [pattern.en library of CLIPS (University of Antwerp)](http://www.clips.ua.ac.be/pages/pattern-en), so all credits go to the original author [Tom De Smedt](http://organisms.be). It's based on their own acquired [adjective sentiment database](https://github.com/ticup/emotional/blob/master/en/en-sentiment.xml).
 
-Explanation taken their website (and slightly altered to fit the port):
+Explanation taken their website (and slightly altered to fit this module):
 
 
 
