@@ -17,7 +17,7 @@
     "xml2js": "*",
     "underscore": "*",
     "underscore.string": "*",
-    "tokepi": "0.0.2",
+    "tokepi": "*",
     "emotional-emoticons": "*"
   },
   "devDependencies": {
