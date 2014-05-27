@@ -77,12 +77,15 @@ emotional.load(function () {
   emotional.positive("This is a good movie", 0.8) // false
   emotional.positive("This is a really good movie", 0.8) // true
 });
-) 
+)
+```
 
 
 Test
-----
+-----
+
 In order to run the tests, make sure all dependencies are installed with
+    
     npm install
 
 and then simply run with
