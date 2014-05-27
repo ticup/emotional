@@ -3,7 +3,7 @@ emotional
 
 Subjectivtiy and sentiment/polarity analysis library for Node.js.
 
-Partial port from the [pattern.en library of CLIPS (University of Antwerp)](http://www.clips.ua.ac.be/pages/pattern-en), so all credits go to the original author [Tom De Smedt](http://organisms.be). It's based on their own acquired [adjective sentiment database](https://github.com/ticup/emotional/blob/master/en/en-sentiment.xml).
+Partial port from the [pattern.en library of CLIPS (University of Antwerp)](http://www.clips.ua.ac.be/pages/pattern-en), so all credits go to the original authors [Tom De Smedt](http://organisms.be) and [Walter Daelemans](http://www.cnts.ua.ac.be/~walter/). It's based on their own acquired [adjective sentiment database](https://github.com/ticup/emotional/blob/master/en/en-sentiment.xml).
 
 Explanation taken from their website (and slightly altered to fit this module):
 
@@ -77,12 +77,15 @@ emotional.load(function () {
   emotional.positive("This is a good movie", 0.8) // false
   emotional.positive("This is a really good movie", 0.8) // true
 });
-) 
+)
+```
 
 
 Test
-----
+-----
+
 In order to run the tests, make sure all dependencies are installed with
+    
     npm install
 
 and then simply run with
