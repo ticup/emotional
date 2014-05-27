@@ -268,7 +268,7 @@ Sentiment.prototype.assessments = function (words, negation) {
         n = w;
 
       // Retain negation across small words ("not a good").
-      } else if ((!_.isNull(n)) && _.strip(w, "'").length > 1) {
+      } else if ((!_.isNull(n)) && _str.strip(w, "'").length > 1) {
         n = null;
       }
 
