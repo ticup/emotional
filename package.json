@@ -2,6 +2,7 @@
   "name": "emotional",
   "description": "Subjectivtiy and sentiment/polarity analysis library for Node.js",
   "author": "Tim Coppieters <coppieters.tim@gmail.com>",
+  "keywords": ["sentiment", "subjectivity", "objectivity", "polarity", "sentiment analysis"],
   "version": "0.0.1",
   "main": "index.js",
   "repository": {
