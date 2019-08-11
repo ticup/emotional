@@ -10,8 +10,8 @@
     "url" : "https://github.com/ticup/emotional.git"
   },
   "engines": {
-    "node": "0.10.x",
-    "npm": "1.2.x"
+    "node": ">=0.10.x",
+    "npm": ">=1.2.x"
   },
   "dependencies": {
     "xml2js": "*",
